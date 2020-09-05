@@ -16,7 +16,7 @@ Neovim wrapper for Windows Terminal
 ## requirements
 * [Neovim](https://neovim.io/ "Neovim")
 * [Windows Terminal](https://github.com/microsoft/terminal "Windows Terminal")  
-Setup windows terminal (wt.exe) to start nvim.exe.  See example wt.exe configuration in "settings.json".
+Setup windows terminal (wt.exe) to start nvim.exe.  See example wt.exe configuration [settings.json](https://github.com/masa300V/nvim-wt/blob/master/settings.json "Windows Terminal setting").
 * [Phython](https://www.python.org/ "Python")
 * [pynvim](https://github.com/neovim/pynvim "pynvim")
 * [Pipelist](https://docs.microsoft.com/en-us/sysinternals/downloads/pipelist "pipelist")  
