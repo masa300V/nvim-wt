@@ -7,6 +7,8 @@ Neovim wrapper for Windows Terminal
   <dd>Open a file in new nvim by opening new windows terminal</dd>
   <dt>nvim-wt-reuse</dt>
   <dd>Open a file in existing nvim on existing windows terminal</dd>
+  <dt>nvim-wt-defx</dt>
+  <dd>Open a file in new nvim by opening new windows terminal, then start Defx</dd>
   <dt>nvim-wt-diff</dt>
   <dd>Compare 2 files in new nvim by opening new windows terminal</dd>
 </dl>
