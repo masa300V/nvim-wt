@@ -1,5 +1,5 @@
 # nvim-wt
-Small Python scripts to use Windows Terminal for Neovim
+Neovim wrapper for Windows Terminal
 
 ## scripts
 <dl>
