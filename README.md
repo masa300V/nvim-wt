@@ -16,7 +16,8 @@ Neovim wrapper for Windows Terminal
 ## requirements
 * [Neovim](https://neovim.io/ "Neovim")
 * [Windows Terminal](https://github.com/microsoft/terminal "Windows Terminal")  
-Setup windows terminal (wt.exe) to start nvim.exe.  See example wt.exe configuration [settings.json](https://github.com/masa300V/nvim-wt/blob/master/settings.json "Windows Terminal setting").
+Setup windows terminal (wt.exe) to start nvim.exe.  See example wt.exe configuration [settings.json](https://github.com/masa300V/nvim-wt/blob/master/settings.json "Windows Terminal setting").  
+A path to wt.exe is embedded inside the scripts.
 * [Phython](https://www.python.org/ "Python")
 * [pynvim](https://github.com/neovim/pynvim "pynvim")
 * [Pipelist](https://docs.microsoft.com/en-us/sysinternals/downloads/pipelist "pipelist")  
@@ -34,6 +35,8 @@ With the pynvim interface, these scripts can ping all nvim.exe instances to sele
 For example, all nvim.exe found by the pipelist show a message "nvim-wt requests to open a file, hit regurn key to chose this nvim".
 * Long wait time for new Windows Terminal  
 Waiting for 3 seconds to ensure nvim.exe is running on new wt.exe...  This is purely limitation of me don't know how to control processes from the Python.
+* User dependent path for wt.exe inside scripts
+wt.exe is called in users' "AppData" folder.
 
 ## background
 I switched my editor software from Vim to Neovim early 2020.
