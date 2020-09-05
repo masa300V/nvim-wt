@@ -141,3 +141,4 @@
         { "command": { "action": "adjustFontSize", "delta": -1 }, "keys": "ctrl+alt+down" }
     ]
 }
+
