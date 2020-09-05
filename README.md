@@ -24,6 +24,7 @@ Install pipelist64.exe (or pipelist.exe) in your PATH.
 
 ## expected usage
 Convert these scripts into .exe files by the pyinstaller command.  Then, place the .exe files in your "send to" folder or register to your shell context menu like gvim.
+![Untitled](https://user-images.githubusercontent.com/37952014/92311901-0ca23c80-ef81-11ea-8294-9e1e5ad9c25d.png)
 
 ## (many) limitations
 * Extreme redundancy on these 3 scripts.  
